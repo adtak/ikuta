@@ -45,7 +45,7 @@ def handle_message(event):
     if client_message == "検索":
         line_bot_api.reply_message(
             event.reply_token,
-            messages=TextSendMessage(client_message)
+            messages=TextSendMessage("https://goo.gl/maps/Fj8VhANRqmfjMGw29")
         )
 
 

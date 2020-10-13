@@ -3,7 +3,7 @@ from src.image_storage import ImageStorage
 
 
 def main():
-    ImageCrawler().run()
+    ImageCrawler().run("painting", 1)
     ImageStorage().push_images()
 
 

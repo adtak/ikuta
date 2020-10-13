@@ -12,6 +12,7 @@ flask = "*"
 line-bot-sdk = "*"
 gunicorn = "*"
 icrawler = "*"
+boto3 = "*"
 
 [requires]
 python_version = "3.8"

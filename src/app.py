@@ -1,5 +1,4 @@
 import os
-import re
 
 # Python Web framework
 from flask import Flask, request, abort

@@ -5,11 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+ikuta = {editable = true, path = "."}
 
 [packages]
 flask = "*"
 line-bot-sdk = "*"
 gunicorn = "*"
+icrawler = "*"
 
 [requires]
 python_version = "3.8"

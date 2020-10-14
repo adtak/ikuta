@@ -8,7 +8,7 @@ class ImageCrawler(object):
         self.output_dir = output_dir
         self.crawler = BingImageCrawler(storage={"root_dir": output_dir})
 
-    def run(self, keyword: str, max_num: str) -> List[str]:
+    def run(self, keyword: str, max_num: int) -> List[str]:
         filters = dict(
             type="photo",
             size="medium",

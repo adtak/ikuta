@@ -14,7 +14,7 @@ def main():
 def parse_arguments():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("-k", "--keyword", required=True)
-    arg_parser.add_argument("-m", "--max", required=True)
+    arg_parser.add_argument("-m", "--max", required=True, type=int)
     return arg_parser.parse_args()
 
 
